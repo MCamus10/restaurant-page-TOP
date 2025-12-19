@@ -15,6 +15,7 @@ function clearTab(){
 }
 
 pageLoad();
+homeTab();
 homeButton.addEventListener("click", () => {
     clearTab();
     homeTab();
